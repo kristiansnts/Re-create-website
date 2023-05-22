@@ -315,12 +315,55 @@ footer img {
         margin-left: 20px;
     }
 
+    .site-nav li a:hover {
+        color: white;
+    }
+
     .welcome-text {
         align-self: center;
     }
 
     #welcome {
         padding-bottom: 40px;
+    }
+
+    #portofolio h3 {
+        margin-bottom: 20px;
+    }
+
+    .projects a:nth-child(1) {
+        grid-column: 2/4;
+    }
+
+    .projects a:nth-child(2) {
+        grid-column: 4/6;
+        padding-top: 160px;
+    }
+
+    .projects a:nth-child(3) {
+        grid-column: 6/8;
+    }
+
+    .projects a * {
+        max-width: 80%;
+        margin: 10px 10%;
+    }
+
+    #skills {
+        padding: 30px 20px;
+    }
+
+    #skills ul {
+        margin: 40px auto;
+    }
+
+    #skills li {
+        grid-column: span 2;
+    }
+
+    footer {
+        padding: 40px 20px;
+        background-size: 25%;
     }
 
 }
